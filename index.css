@@ -151,6 +151,7 @@ clearfix::after {
 }
 
 .content {
+    position: relative;
     height: 150px;
     width: 150px;
     float: left;
@@ -164,6 +165,7 @@ clearfix::after {
 
 .text-block {
     position: absolute;
+    top: 120px;
     width: 150px;
     height: 40px;
     background-color:#4aaaa5;
@@ -171,4 +173,9 @@ clearfix::after {
     padding-right: 20px;
     color: #ffffff;
     text-align: center;
+}
+
+
+h3, h4, h5, h6, h7 {
+    margin-top: 12px
 }
